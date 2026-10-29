@@ -1,0 +1,103 @@
+rules_version = '2';
+
+// Regras de segurança do banco de dados (Firestore) da NMAKER.
+// Copie este arquivo inteiro em: Firebase Console → Firestore Database → Regras → Publicar.
+// O e-mail abaixo deve ser o mesmo de ADMIN_EMAILS em js/config.js.
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function logado() { return request.auth != null; }
+
+    // Dono da loja: e-mail verificado e presente nesta lista
+    function ehAdmin() {
+      return logado()
+        && request.auth.token.email_verified == true
+        && request.auth.token.email in ['oliveiranicolas656@gmail.com'];
+    }
+
+    // Campo de texto opcional com tamanho máximo (evita dados gigantes ou de tipo errado)
+    function texto(d, campo, max) {
+      return !(campo in d) || (d[campo] is string && d[campo].size() <= max);
+    }
+
+    // ---------------------------------------------------------------
+    // Perfil do cliente (dados de entrega e favoritos)
+    // ---------------------------------------------------------------
+    match /usuarios/{uid} {
+      allow read: if logado() && (request.auth.uid == uid || ehAdmin());
+      allow create, update: if logado() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['nome', 'email', 'telefone', 'cep', 'endereco', 'numero',
+             'complemento', 'bairro', 'cidade', 'uf', 'favoritos', 'criadoEm', 'atualizadoEm'])
+        && texto(request.resource.data, 'nome', 100)
+        && texto(request.resource.data, 'email', 150)
+        && texto(request.resource.data, 'telefone', 20)
+        && texto(request.resource.data, 'cep', 10)
+        && texto(request.resource.data, 'endereco', 150)
+        && texto(request.resource.data, 'numero', 10)
+        && texto(request.resource.data, 'complemento', 80)
+        && texto(request.resource.data, 'bairro', 80)
+        && texto(request.resource.data, 'cidade', 80)
+        && texto(request.resource.data, 'uf', 2)
+        && (!('favoritos' in request.resource.data)
+            || (request.resource.data.favoritos is list && request.resource.data.favoritos.size() <= 200));
+      allow delete: if false;
+    }
+
+    // ---------------------------------------------------------------
+    // Pedidos
+    // ---------------------------------------------------------------
+    match /pedidos/{id} {
+      // Pedidos são criados SÓ pelo servidor de pagamento (Cloudflare), que confere
+      // preços e frete. Ninguém consegue criar pedido direto pelo navegador.
+      allow create: if false;
+
+      // Cada cliente vê os próprios pedidos; o dono da loja vê todos
+      allow read: if logado() && (resource.data.uid == request.auth.uid || ehAdmin());
+
+      // Só o dono da loja muda o pedido, e só o status (para um dos valores válidos)
+      allow update: if ehAdmin()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status', 'atualizadoEm'])
+        && request.resource.data.status in ['Aguardando pagamento', 'Pago', 'Em produção', 'Enviado', 'Entregue', 'Cancelado'];
+
+      allow delete: if false;
+    }
+
+    // ---------------------------------------------------------------
+    // Chat do site: uma conversa por cliente (o id é o uid do cliente)
+    // ---------------------------------------------------------------
+    match /conversas/{uid} {
+      allow read: if logado() && (request.auth.uid == uid || ehAdmin());
+
+      // O cliente cria/atualiza a própria conversa ao mandar mensagem ou ao ler a resposta
+      allow create, update: if logado() && request.auth.uid == uid
+        && request.resource.data.keys().hasOnly(['uid', 'nome', 'email', 'ultimaMsg', 'ultimaDe', 'atualizadoEm', 'naoLidaLoja', 'naoLidaCliente'])
+        && request.resource.data.uid == uid
+        && texto(request.resource.data, 'nome', 100)
+        && texto(request.resource.data, 'email', 150)
+        && texto(request.resource.data, 'ultimaMsg', 140)
+        && (!('naoLidaCliente' in request.resource.data) || request.resource.data.naoLidaCliente == false);
+
+      // O dono da loja só mexe no resumo (ao responder ou ao ler)
+      allow update: if ehAdmin()
+        && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['ultimaMsg', 'ultimaDe', 'atualizadoEm', 'naoLidaLoja', 'naoLidaCliente'])
+        && texto(request.resource.data, 'ultimaMsg', 140);
+
+      allow delete: if false;
+
+      match /mensagens/{mid} {
+        allow read: if logado() && (request.auth.uid == uid || ehAdmin());
+        // Mensagem: texto de 1 a 1000 caracteres, com a hora do servidor;
+        // o cliente só escreve como "cliente" na própria conversa e a loja só como "loja"
+        allow create: if logado()
+          && request.resource.data.keys().hasOnly(['de', 'texto', 'criadoEm'])
+          && request.resource.data.texto is string
+          && request.resource.data.texto.size() > 0 && request.resource.data.texto.size() <= 1000
+          && request.resource.data.criadoEm == request.time
+          && ((request.auth.uid == uid && request.resource.data.de == 'cliente')
+              || (ehAdmin() && request.resource.data.de == 'loja'));
+        allow update, delete: if false;
+      }
+    }
+  }
+}

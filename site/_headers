@@ -1,0 +1,33 @@
+# Cabeçalhos do site (Cloudflare Pages)
+
+# Segurança em todas as páginas
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: object-src 'none'; base-uri 'self'; frame-ancestors 'self'; upgrade-insecure-requests
+
+# O painel da loja nunca pode ser aberto dentro de outro site nem ficar em cache
+/admin.html
+  ! X-Frame-Options
+  X-Frame-Options: DENY
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow
+/admin
+  ! X-Frame-Options
+  X-Frame-Options: DENY
+  Cache-Control: no-store
+  X-Robots-Tag: noindex, nofollow
+
+# Código e dados (preços, frete, fanarts): o navegador sempre confere se mudou
+# (com ETag, só baixa de novo quando muda; assim preço novo aparece na hora)
+/js/*
+  Cache-Control: no-cache
+/dados/*
+  Cache-Control: no-cache
+
+# Fotos ficam guardadas no navegador do cliente por 30 dias (site mais rápido)
+/imagens/*
+  Cache-Control: public, max-age=2592000

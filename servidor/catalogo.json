@@ -1,0 +1,3972 @@
+{
+ "busto-jesus": {
+  "nome": "Busto de Jesus Efeito Mármore",
+  "preco": 34.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Dourada",
+    "preco": 34.9
+   },
+   {
+    "nome": "Monocromático",
+    "preco": 34.9
+   }
+  ]
+ },
+ "mini-jesus": {
+  "nome": "Mini Jesus Sentadinho 4cm",
+  "preco": 14.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "1 unidade",
+    "preco": 14.9
+   },
+   {
+    "nome": "2 unidades",
+    "preco": 24.9
+   },
+   {
+    "nome": "3 unidades",
+    "preco": 34.9
+   },
+   {
+    "nome": "5 unidades",
+    "preco": 49.9
+   }
+  ]
+ },
+ "leao-de-juda": {
+  "nome": "Leão de Judá com Coroa Dourada",
+  "preco": 34.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "cruz-decorativa": {
+  "nome": "Cruz Decorativa Branca e Dourada",
+  "preco": 29.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "pomba-da-paz": {
+  "nome": "Pomba da Paz Decorativa",
+  "preco": 29.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "suporte-dragao": {
+  "nome": "Suporte Dragão Vermelho",
+  "preco": 38.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "suporte-headset-caveira": {
+  "nome": "Suporte de Headset Caveira",
+  "preco": 38.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "suporte-headset-panda": {
+  "nome": "Suporte de Headset Panda",
+  "preco": 38.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "suporte-headset-gato": {
+  "nome": "Suporte de Headset Gato Bigodes",
+  "preco": 38.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "suporte-headset-sapo": {
+  "nome": "Suporte de Headset Sapo",
+  "preco": 38.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "suporte-headset-unicornio": {
+  "nome": "Suporte de Headset Unicórnio",
+  "preco": 38.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "esqueleto-dino": {
+  "nome": "Esqueleto de Dinossauro Articulado",
+  "preco": 16.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Anquilossauro",
+    "preco": 16.9
+   },
+   {
+    "nome": "Parasauro",
+    "preco": 16.9
+   },
+   {
+    "nome": "Stegosaurus",
+    "preco": 16.9
+   },
+   {
+    "nome": "T-REX",
+    "preco": 16.9
+   },
+   {
+    "nome": "Triceratops",
+    "preco": 16.9
+   },
+   {
+    "nome": "Velociraptor",
+    "preco": 16.9
+   }
+  ]
+ },
+ "baby-trex": {
+  "nome": "Baby T-Rex 10cm",
+  "preco": 32.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "baby-triceratops": {
+  "nome": "Baby Triceratops 12cm",
+  "preco": 32.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "baby-brontossauro": {
+  "nome": "Baby Brontossauro 12cm",
+  "preco": 32.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "baby-stegossauro": {
+  "nome": "Baby Stegossauro 7cm",
+  "preco": 32.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "morcego-preguicoso": {
+  "nome": "Chaveiro Morcego Preguiçoso",
+  "preco": 22.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Morcego roxo",
+    "preco": 22.9
+   },
+   {
+    "nome": "Morcego preto",
+    "preco": 22.9
+   }
+  ]
+ },
+ "morcego-apaixonado": {
+  "nome": "Chaveiro Morcego Apaixonado",
+  "preco": 22.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Morcego Roxo",
+    "preco": 22.9
+   },
+   {
+    "nome": "Morcego preto",
+    "preco": 22.9
+   }
+  ]
+ },
+ "morcego-gamer": {
+  "nome": "Chaveiro Morcego Gamer",
+  "preco": 22.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Morcego Roxo",
+    "preco": 22.9
+   },
+   {
+    "nome": "Morcego Preto",
+    "preco": 22.9
+   }
+  ]
+ },
+ "morcego-maromba": {
+  "nome": "Chaveiro Morcego Maromba",
+  "preco": 22.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Morcego Roxo",
+    "preco": 22.9
+   },
+   {
+    "nome": "Morcego Preto",
+    "preco": 22.9
+   }
+  ]
+ },
+ "morcego-gangster": {
+  "nome": "Chaveiro Morcego Gângster",
+  "preco": 22.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Morcego Roxo",
+    "preco": 22.9
+   },
+   {
+    "nome": "Morcego Preto",
+    "preco": 22.9
+   }
+  ]
+ },
+ "morcego-biquini": {
+  "nome": "Chaveiro Morcego de Biquíni",
+  "preco": 22.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Morcego roxo",
+    "preco": 22.9
+   },
+   {
+    "nome": "Morcego preto",
+    "preco": 22.9
+   }
+  ]
+ },
+ "chaveiro-axolote": {
+  "nome": "Chaveiro Axolote Kawaii",
+  "preco": 22.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Apaixonado",
+    "preco": 22.9
+   },
+   {
+    "nome": "Bravinho",
+    "preco": 22.9
+   },
+   {
+    "nome": "Dorminhoco",
+    "preco": 22.9
+   },
+   {
+    "nome": "Felizinho",
+    "preco": 22.9
+   },
+   {
+    "nome": "Tristinho",
+    "preco": 22.9
+   }
+  ]
+ },
+ "ceifador-gamer": {
+  "nome": "Chaveiro Ceifador Gamer “Press F”",
+  "preco": 21.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "ceifador-melancia": {
+  "nome": "Chaveiro Ceifador Comendo Melancia",
+  "preco": 21.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "ceifador-pantufa": {
+  "nome": "Chaveiro Ceifador de Pantufa",
+  "preco": 21.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "chaveiro-vampirinho": {
+  "nome": "Chaveiro Vampirinho",
+  "preco": 19.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "chaveiro-mumia": {
+  "nome": "Chaveiro Múmia Misteriosa",
+  "preco": 19.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "porta-comprimidos": {
+  "nome": "Chaveiro Porta-Comprimidos",
+  "preco": 19.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "keycap-halloween": {
+  "nome": "Keycaps Halloween",
+  "preco": 14.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Abóbora",
+    "preco": 14.9
+   },
+   {
+    "nome": "Gatinho",
+    "preco": 14.9
+   },
+   {
+    "nome": "Fantasminha",
+    "preco": 14.9
+   },
+   {
+    "nome": "Zumbi",
+    "preco": 14.9
+   },
+   {
+    "nome": "Combo",
+    "preco": 49.9
+   }
+  ]
+ },
+ "keycap-pinguim": {
+  "nome": "Keycaps Pinguim Fofo",
+  "preco": 14.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Apaixonado",
+    "preco": 14.9
+   },
+   {
+    "nome": "Fofinho",
+    "preco": 14.9
+   },
+   {
+    "nome": "Bravo",
+    "preco": 14.9
+   },
+   {
+    "nome": "Chorão",
+    "preco": 14.9
+   },
+   {
+    "nome": "Combo",
+    "preco": 49.9
+   }
+  ]
+ },
+ "protetor-cabo-estrela": {
+  "nome": "Protetor de Cabo Estrela com Nome",
+  "preco": 11.99,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "quebra-cabeca-gatinhos": {
+  "nome": "Quebra-Cabeça Gatinhos no Encaixe",
+  "preco": 30.99,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "porta-chaves-panda": {
+  "nome": "Porta-Chaves Panda no Bambu",
+  "preco": 24.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "porta-chaves-gato": {
+  "nome": "Porta-Chaves Gato na Caixa",
+  "preco": 24.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "porta-chaves-cacto": {
+  "nome": "Porta-Chaves Cacto Escondido",
+  "preco": 24.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "porta-papel-gato": {
+  "nome": "Porta Papel Higiênico Gato 16cm",
+  "preco": 24.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "incensario-preguica": {
+  "nome": "Incensário Preguiça Relax",
+  "preco": 29.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "prendedor-toalha": {
+  "nome": "Prendedor de Toalha Adesivo",
+  "preco": 21.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fantasma-balanco": {
+  "nome": "Fantasma no Balanço",
+  "preco": 36.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "natal-trico": {
+  "nome": "Bonecos de Natal Tricô",
+  "preco": 14.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Papai Noel",
+    "preco": 14.9
+   },
+   {
+    "nome": "Rena",
+    "preco": 14.9
+   },
+   {
+    "nome": "Pinguim",
+    "preco": 14.9
+   },
+   {
+    "nome": "Urso polar",
+    "preco": 14.9
+   },
+   {
+    "nome": "Gengibre",
+    "preco": 14.9
+   },
+   {
+    "nome": "Kit completo",
+    "preco": 58.9
+   },
+   {
+    "nome": "Boneco de neve",
+    "preco": 14.9
+   }
+  ]
+ },
+ "camiseta-bordada": {
+  "nome": "Camiseta bordada",
+  "preco": 0,
+  "personalizavel": true,
+  "variantes": []
+ },
+ "laser-corte": {
+  "nome": "Corte a laser sob medida",
+  "preco": 0,
+  "personalizavel": true,
+  "variantes": []
+ },
+ "laser-gravacao": {
+  "nome": "Gravação a laser",
+  "preco": 0,
+  "personalizavel": true,
+  "variantes": []
+ },
+ "laser-lembrancinhas": {
+  "nome": "Lembrancinhas de festa",
+  "preco": 0,
+  "personalizavel": true,
+  "variantes": []
+ },
+ "laser-chaveiro-nome": {
+  "nome": "Chaveiro personalizado",
+  "preco": 0,
+  "personalizavel": true,
+  "variantes": []
+ },
+ "keycap-personalizada": {
+  "nome": "Keycap personalizada",
+  "preco": 0,
+  "personalizavel": true,
+  "variantes": []
+ },
+ "fa-vold": {
+  "nome": "Vold Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-hagrid": {
+  "nome": "Hagrid Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-dobby": {
+  "nome": "Dobby",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-sirius-black": {
+  "nome": "Sirius Black Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-severus-snape": {
+  "nome": "Severus Snape Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-draco-malfoy": {
+  "nome": "Draco Malfoy Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-ron-weasley": {
+  "nome": "Ron Weasley Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-hermione-granger": {
+  "nome": "Hermione Granger Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-harry-potter": {
+  "nome": "Harry Potter Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-alvo-dumbledore": {
+  "nome": "Alvo Dumbledore Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-pirata-de-borracha": {
+  "nome": "Pirata de Borracha",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-luffy-chibi": {
+  "nome": "Luffy Chibi",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-nico-robin": {
+  "nome": "Nico Robin Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-jinbe": {
+  "nome": "Jinbe Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-usopp": {
+  "nome": "Usopp Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-nami": {
+  "nome": "Nami Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-franky": {
+  "nome": "Franky Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-brook": {
+  "nome": "Brook Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-sanji": {
+  "nome": "Sanji Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-chopper": {
+  "nome": "Chopper Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-zoro": {
+  "nome": "Zoro Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-luffy": {
+  "nome": "Luffy Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-luminaria-luffy-na-lua": {
+  "nome": "Luminária Luffy na Lua",
+  "preco": 99.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-fruta-mera-mera-no-mi": {
+  "nome": "Fruta Mera Mera no Mi",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-fidget-toy-mera-mera-no-mi": {
+  "nome": "Fidget Toy Mera Mera no Mi",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-fidget-toy-gomu-gomu-no-mi": {
+  "nome": "Fidget Toy Gomu Gomu no Mi",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-cell": {
+  "nome": "Cell Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-piccolo": {
+  "nome": "Piccolo Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-frieza-dourado": {
+  "nome": "Frieza Dourado Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-frieza": {
+  "nome": "Frieza",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-fat-buu": {
+  "nome": "Fat Buu Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-kid-buu": {
+  "nome": "Kid Buu Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-vegeta": {
+  "nome": "Vegeta Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-goku": {
+  "nome": "Goku Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-goku-super-saiyajin-4": {
+  "nome": "Goku Super Saiyajin 4",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-shinobu": {
+  "nome": "Shinobu Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-rengoku": {
+  "nome": "Rengoku Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-akaza": {
+  "nome": "Akaza Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-nezuko": {
+  "nome": "Nezuko Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-inosuke": {
+  "nome": "Inosuke Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-zenitsu": {
+  "nome": "Zenitsu Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-tanjiro": {
+  "nome": "Tanjiro Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-mascara-kozo-kanamori": {
+  "nome": "Máscara Kozo Kanamori",
+  "preco": 89.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-mascara-hotaru-haganezuka": {
+  "nome": "Máscara Hotaru Haganezuka",
+  "preco": 89.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-sung-jinwoo-solo-leveling": {
+  "nome": "Sung Jinwoo (Solo Leveling)",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-gon-freecss": {
+  "nome": "Gon Freecss",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-inuyasha": {
+  "nome": "InuYasha Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-gojo-satoru": {
+  "nome": "Gojo Satoru Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-pochita": {
+  "nome": "Pochita Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-sukuna": {
+  "nome": "Sukuna",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-levi-ackerman": {
+  "nome": "Levi Ackerman",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-tita-de-ataque-eren": {
+  "nome": "Titã de Ataque (Eren)",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-eren-yeager": {
+  "nome": "Eren Yeager",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-lindinha": {
+  "nome": "Lindinha",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-tigrao": {
+  "nome": "Tigrão Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-ursinho-pooh": {
+  "nome": "Ursinho Pooh Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-baymax": {
+  "nome": "Baymax Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-snoopy": {
+  "nome": "Snoopy Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-chase-patrulha-canina": {
+  "nome": "Chase (Patrulha Canina)",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-kuromi": {
+  "nome": "Kuromi Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-tom-lizard": {
+  "nome": "Tom Lizard",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-smurf": {
+  "nome": "Smurf",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-judy-hopps-zootopia": {
+  "nome": "Judy Hopps (Zootopia)",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-nick-wilde-zootopia": {
+  "nome": "Nick Wilde (Zootopia)",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-minnie": {
+  "nome": "Minnie Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-mickey": {
+  "nome": "Mickey Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-sulley": {
+  "nome": "Sulley Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-mike-wazowski": {
+  "nome": "Mike Wazowski Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-boo-monstros-s-a": {
+  "nome": "Boo (Monstros S.A.) Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-lilo": {
+  "nome": "Lilo Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-anjo-sentada": {
+  "nome": "Anjo Sentada Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-leroy": {
+  "nome": "Leroy Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-anjo": {
+  "nome": "Anjo Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-stitch-sentado": {
+  "nome": "Stitch Sentado Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-stitch": {
+  "nome": "Stitch Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-perry-o-ornitorrinco-articulado": {
+  "nome": "Perry o Ornitorrinco Articulado",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-tartaruga-ninja": {
+  "nome": "Tartaruga Ninja",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-minion": {
+  "nome": "Minion Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-tung-tung-tung-sahur": {
+  "nome": "Tung Tung Tung Sahur Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-superman": {
+  "nome": "Superman",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-coringa": {
+  "nome": "Coringa",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-astro-boy": {
+  "nome": "Astro Boy",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-hulk": {
+  "nome": "Hulk",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-venom": {
+  "nome": "Venom",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-mega-man": {
+  "nome": "Mega Man",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-batman": {
+  "nome": "Batman",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-homem-aranha": {
+  "nome": "Homem-Aranha",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-wolverine": {
+  "nome": "Wolverine Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-deadpool": {
+  "nome": "Deadpool Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-bingo": {
+  "nome": "Bingo",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-bluey": {
+  "nome": "Bluey",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-max-cao-do-grinch": {
+  "nome": "Max (cão do Grinch)",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-grinch": {
+  "nome": "Grinch",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-zoey-huntrix": {
+  "nome": "Zoey (Huntrix) Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-mira-huntrix": {
+  "nome": "Mira (Huntrix) Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-rumi-huntrix": {
+  "nome": "Rumi (Huntrix) Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-sussy-bird": {
+  "nome": "Sussy Bird",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-derpy-tiger": {
+  "nome": "Derpy Tiger",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-luigi-noel": {
+  "nome": "Luigi Noel Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-princesa-peach": {
+  "nome": "Princesa Peach Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-mario-noel": {
+  "nome": "Mario Noel",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-cogumelo-do-mario": {
+  "nome": "Cogumelo do Mario Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-toad": {
+  "nome": "Toad Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-bowser": {
+  "nome": "Bowser",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-luigi": {
+  "nome": "Luigi",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-mario": {
+  "nome": "Mario",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-yoshi": {
+  "nome": "Yoshi",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-estrela-luma": {
+  "nome": "Estrela Luma Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-kirby": {
+  "nome": "Kirby Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-kirby-yoshi": {
+  "nome": "Kirby Yoshi Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-sakura": {
+  "nome": "Sakura Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-jiraiya": {
+  "nome": "Jiraiya Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-sasuke": {
+  "nome": "Sasuke Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-itachi": {
+  "nome": "Itachi Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-kakashi": {
+  "nome": "Kakashi Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-naruto": {
+  "nome": "Naruto Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-demogorgon-stranger-things": {
+  "nome": "Demogorgon (Stranger Things) Efeito Tricô",
+  "preco": 79.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 79.9
+   }
+  ]
+ },
+ "fa-abobora-deadpool": {
+  "nome": "Abóbora Deadpool",
+  "preco": 44.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 79.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 44.9
+   }
+  ]
+ },
+ "fa-abobora-freddy-fazbear": {
+  "nome": "Abóbora Freddy Fazbear",
+  "preco": 44.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 79.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 44.9
+   }
+  ]
+ },
+ "fa-freddy-fazbear-articulado": {
+  "nome": "Freddy Fazbear Articulado Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-banguela-dancando-articulado": {
+  "nome": "Banguela Dançando Articulado",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-chaveiro-banguela": {
+  "nome": "Chaveiro Banguela",
+  "preco": 19.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-suporte-de-controle-banguela": {
+  "nome": "Suporte de Controle Banguela",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-banguela": {
+  "nome": "Banguela Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-furia-da-luz": {
+  "nome": "Fúria da Luz Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-bonbon-dog": {
+  "nome": "Bonbon Dog Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-mew": {
+  "nome": "Mew Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-feraligatr": {
+  "nome": "Feraligatr",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-typhlosion": {
+  "nome": "Typhlosion",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-eevee": {
+  "nome": "Eevee",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-dragonite": {
+  "nome": "Dragonite",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-misty": {
+  "nome": "Misty",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-browt": {
+  "nome": "Browt",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-brock": {
+  "nome": "Brock",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-psyduck": {
+  "nome": "Psyduck",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-meganium": {
+  "nome": "Meganium",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-quilava": {
+  "nome": "Quilava",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-croconaw": {
+  "nome": "Croconaw",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-bayleef": {
+  "nome": "Bayleef",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-cyndaquil": {
+  "nome": "Cyndaquil",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-ash-ketchum": {
+  "nome": "Ash Ketchum",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-totodile": {
+  "nome": "Totodile",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-chikorita": {
+  "nome": "Chikorita",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-cubone": {
+  "nome": "Cubone",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-mega-greninja": {
+  "nome": "Mega Greninja",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-caterpie": {
+  "nome": "Caterpie",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-charizard": {
+  "nome": "Charizard",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-venusaur": {
+  "nome": "Venusaur",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-blastoise": {
+  "nome": "Blastoise",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-ivysaur": {
+  "nome": "Ivysaur",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-wartortle": {
+  "nome": "Wartortle",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-charmeleon": {
+  "nome": "Charmeleon",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-pikachu": {
+  "nome": "Pikachu",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-squirtle": {
+  "nome": "Squirtle",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-bulbasaur": {
+  "nome": "Bulbasaur",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-charmander": {
+  "nome": "Charmander",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-snorlax": {
+  "nome": "Snorlax Efeito Tricô",
+  "preco": 79.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 79.9
+   }
+  ]
+ },
+ "fa-charizard-urban": {
+  "nome": "Charizard Urban",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-gengar": {
+  "nome": "Gengar Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-pikachu-urban": {
+  "nome": "Pikachu Urban",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-squirtle-urban": {
+  "nome": "Squirtle Urban",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-bulbasaur-urban": {
+  "nome": "Bulbasaur Urban",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-charmander-urban": {
+  "nome": "Charmander Urban",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-togepi": {
+  "nome": "Togepi Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-fidget-toy-pokebola": {
+  "nome": "Fidget Toy Pokébola",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-abobora-snorlax-e-munchlax": {
+  "nome": "Abóbora Snorlax e Munchlax",
+  "preco": 44.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 79.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 44.9
+   }
+  ]
+ },
+ "fa-abobora-bulbasaur": {
+  "nome": "Abóbora Bulbasaur",
+  "preco": 44.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 79.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 44.9
+   }
+  ]
+ },
+ "fa-pikachu-wolverine": {
+  "nome": "Pikachu Wolverine",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-quadro-gengar-esqueleto": {
+  "nome": "Quadro Gengar Esqueleto",
+  "preco": 79.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-gengar-esqueleto": {
+  "nome": "Gengar Esqueleto",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-jigglypuff": {
+  "nome": "Jigglypuff Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-dugtrio-desmoronando": {
+  "nome": "Dugtrio Desmoronando",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-keycap-fidget-bulbasaur": {
+  "nome": "Keycap Fidget Bulbasaur",
+  "preco": 29.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-krookodile-nadando": {
+  "nome": "Krookodile Nadando",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-chikorita-chaveiro-ou-cofrinho": {
+  "nome": "Chikorita Chaveiro ou Cofrinho",
+  "preco": 19.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Chaveiro",
+    "preco": 19.9
+   },
+   {
+    "nome": "Cofrinho",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-pikachu-chaveiro-ou-cofrinho": {
+  "nome": "Pikachu Chaveiro ou Cofrinho",
+  "preco": 19.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Chaveiro",
+    "preco": 19.9
+   },
+   {
+    "nome": "Cofrinho",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-meowth": {
+  "nome": "Meowth Efeito Tricô",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-suporte-de-carregador-pokebola": {
+  "nome": "Suporte de Carregador Pokébola",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-pokebola-airless": {
+  "nome": "Pokébola Airless",
+  "preco": 39.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-pokebola-efeito-trico": {
+  "nome": "Pokébola Efeito Tricô",
+  "preco": 39.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-pikachu-namorados": {
+  "nome": "Pikachu Namorados",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-squirtle-saxofone": {
+  "nome": "Squirtle Saxofone",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-pokebola-homem-de-ferro": {
+  "nome": "Pokébola Homem de Ferro",
+  "preco": 44.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-pokebola-mega-rayquaza": {
+  "nome": "Pokébola Mega Rayquaza",
+  "preco": 44.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "fa-rex-amarelo": {
+  "nome": "Rex Amarelo",
+  "preco": 49.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 59.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 109.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 49.9
+   }
+  ]
+ },
+ "fa-mandaloriano": {
+  "nome": "Mandaloriano",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-stormtrooper-primeira-ordem": {
+  "nome": "Stormtrooper (Primeira Ordem)",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-baby-yoda": {
+  "nome": "Baby Yoda",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-cowboy-de-brinquedo": {
+  "nome": "Cowboy de Brinquedo",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-buzz-lightyear": {
+  "nome": "Buzz Lightyear",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-mega-man-x": {
+  "nome": "Mega Man X",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-princesa-zelda": {
+  "nome": "Princesa Zelda Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-link-zelda": {
+  "nome": "Link (Zelda) Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-zero-mega-man-x": {
+  "nome": "Zero (Mega Man X)",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-donkey-kong": {
+  "nome": "Donkey Kong",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-kratos": {
+  "nome": "Kratos",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 169.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 79.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-jeff-o-tubarao-terrestre": {
+  "nome": "Jeff, o Tubarão Terrestre",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-sonic": {
+  "nome": "Sonic",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-shadow": {
+  "nome": "Shadow",
+  "preco": 59.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Tricô · Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Tricô · Pequeno",
+    "preco": 69.9
+   },
+   {
+    "nome": "Lisa · Grande",
+    "preco": 129.9
+   },
+   {
+    "nome": "Lisa · Pequeno",
+    "preco": 59.9
+   }
+  ]
+ },
+ "fa-super-sonic": {
+  "nome": "Super Sonic Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-amy-rose": {
+  "nome": "Amy Rose Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-knuckles": {
+  "nome": "Knuckles Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-tails": {
+  "nome": "Tails Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-silver": {
+  "nome": "Silver Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ },
+ "fa-dr-eggman": {
+  "nome": "Dr. Eggman Efeito Tricô",
+  "preco": 69.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Grande",
+    "preco": 149.9
+   },
+   {
+    "nome": "Pequeno",
+    "preco": 69.9
+   }
+  ]
+ }
+}

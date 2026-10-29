@@ -1,0 +1,16 @@
+{
+  "name": "nmaker-site",
+  "private": true,
+  "type": "module",
+  "description": "Site da NMAKER (pasta site/) + funções de pagamento do Mercado Pago (pasta functions/api/, publicadas no Cloudflare Pages).",
+  "scripts": {
+    "build": "node scripts/gerar-catalogo.mjs",
+    "testar": "node scripts/testar-funcoes.mjs"
+  },
+  "dependencies": {
+    "jose": "^5.10.0"
+  },
+  "devDependencies": {
+    "wrangler": "^4.152.0"
+  }
+}

@@ -1,0 +1,11 @@
+# dependências e arquivos temporários do Cloudflare
+node_modules/
+.wrangler/
+# NUNCA versionar/publicar chaves secretas
+*firebase-adminsdk*.json
+*.env
+.env*
+# configurações locais do Claude
+.claude/
+# script de uso único para baixar fotos (fica só no computador)
+scripts/baixar-fotos-whale.js

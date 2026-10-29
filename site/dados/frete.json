@@ -1,0 +1,15 @@
+{
+  "_leia": "TABELA DE FRETE (valores aproximados da J&T Express saindo de São Paulo, caixa pequena até ~1 kg). O site e o servidor de pagamento usam esta mesma tabela. Ordem de prioridade: porUF (estado específico) > porRegiao. gratisAcima: valor dos produtos a partir do qual o frete é grátis (0 = nunca grátis).",
+  "gratisAcima": 200,
+  "porUF": {
+    "SP": 14.90
+  },
+  "porRegiao": {
+    "Sudeste": 19.90,
+    "Sul": 24.90,
+    "Centro-Oeste": 27.90,
+    "Nordeste": 32.90,
+    "Norte": 39.90
+  },
+  "prazo": "Envio pela J&T Express em até 3 dias úteis após o pagamento, com código de rastreio."
+}
