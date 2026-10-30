@@ -38,6 +38,9 @@ wrangler.toml       configuração do Cloudflare Pages
 ```bash
 npm install
 
+# configuração do Firebase: copie o exemplo e preencha com o seu projeto
+cp site/js/config.exemplo.js site/js/config.js
+
 # testar as regras de pagamento (não precisa de chaves)
 npm run testar
 

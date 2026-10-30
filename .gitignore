@@ -9,3 +9,5 @@ node_modules/
 .claude/
 # script de uso único para baixar fotos (fica só no computador)
 scripts/baixar-fotos-whale.js
+# configuração real do Firebase (a chave fica só no computador e no site publicado)
+site/js/config.js
