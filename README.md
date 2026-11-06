@@ -1,26 +1,71 @@
-# NMAKER — camisetas, laser e impressão 3D personalizados
+# NMAKER — loja virtual completa, do catálogo ao pagamento
 
-Loja virtual da **NMAKER**, que vende camisetas bordadas, peças com corte e gravação a laser e impressão 3D: presentes, lembrancinhas, brindes, colecionáveis e encomendas sob medida, com envio para todo o Brasil.
+Loja virtual em produção da **NMAKER**, que vende camisetas bordadas, peças com corte e gravação a laser e impressão 3D, com envio para todo o Brasil.
 
-**No ar:** https://nmaker.com.br
+O projeto cobre o fluxo inteiro de um e-commerce: catálogo com mais de 250 produtos, contas de cliente, pagamento online, confirmação automática, chat em tempo real e painel da loja. Tudo com JavaScript puro, sem framework.
 
-## O que o site faz
+**[Ver o site no ar →](https://nmaker.com.br)** · **[Ver a apresentação em PDF →](prints-portfolio/linkedin/NMAKER-portfolio.pdf)**
 
-- **Catálogo com carrinho**, busca e categorias, incluindo uma seção de fanarts impressas em 3D.
-- **Pagamento online pelo Mercado Pago** (Pix, cartão e boleto). O preço e o frete são recalculados no servidor, então o navegador nunca decide o valor cobrado.
-- **Confirmação automática do pagamento.** O Mercado Pago avisa o site por webhook, e a função não confia no aviso: consulta o pagamento direto na API antes de marcar o pedido como pago.
-- **Frete por região**, calculado pela UF e pelo valor da compra, com a mesma regra no carrinho e no servidor.
-- **Contas de cliente** com Firebase: cadastro, login, histórico de pedidos e favoritos.
-- **Chat da loja.** O cliente conversa com a NMAKER sem sair do site, e a loja responde pelo painel.
-- **Painel da loja** (`admin.html`): pedidos, mudança de status e conversas. Só e-mails autorizados entram, e a segurança de verdade fica nas regras do Firestore.
+![Página inicial da NMAKER](prints-portfolio/01-pagina-inicial.png)
 
-## Como é feito
+![Catálogo com busca e categorias](prints-portfolio/02-produtos.png)
 
-- **HTML, CSS e JavaScript puros**, sem framework.
-- **Cloudflare Pages** para hospedar e **Pages Functions** (`functions/api/`) para criar o pagamento e receber o webhook.
-- **Firebase** (Auth + Firestore) para contas, pedidos, favoritos e chat, protegido por `firestore.rules`.
-- **Regras de negócio separadas** em `servidor/` (pedido, frete e acesso ao Google), sem dependências externas, para poderem ser testadas no computador.
-- **Scripts em Node e Python** (`scripts/`) que geram o catálogo usado pelo servidor e os produtos de fanart a partir das fotos.
+## Tecnologias
+
+| Área | Tecnologia |
+|---|---|
+| Interface | HTML, CSS e JavaScript puros |
+| Back-end | Cloudflare Pages Functions |
+| Login e banco de dados | Firebase Auth e Firestore |
+| Pagamentos | Mercado Pago (Pix, cartão e boleto) |
+| Hospedagem e DNS | Cloudflare Pages |
+| Automação | Scripts em Node.js e Python |
+
+## Principais funcionalidades
+
+**Para o cliente**
+- Catálogo com busca, categorias, ordenação e galeria de fotos
+- Produtos com variações de acabamento e tamanho
+- Carrinho, frete por região e pagamento pelo Mercado Pago
+- Cadastro, login com e-mail ou Google, histórico de pedidos e favoritos
+- Chat com a loja dentro do site, sem precisar do WhatsApp
+- Layout para celular e computador, com tema claro e escuro
+
+**Para a loja**
+- Painel com pedidos em tempo real, gráfico de vendas e mudança de status
+- Lista de clientes e central de conversas
+- Pedido marcado como pago automaticamente quando o pagamento é aprovado
+
+## Como o pagamento funciona
+
+O navegador nunca decide o valor cobrado, e o aviso de pagamento nunca é aceito sem conferência.
+
+```mermaid
+sequenceDiagram
+    participant C as Cliente
+    participant F as Cloudflare Functions
+    participant B as Firestore
+    participant M as Mercado Pago
+
+    C->>F: Envia carrinho e login
+    F->>F: Confere login, recalcula preços e frete
+    F->>B: Salva o pedido como "Aguardando pagamento"
+    F->>M: Cria o checkout
+    F-->>C: Devolve o link de pagamento
+    C->>M: Paga
+    M->>F: Avisa pelo webhook
+    F->>M: Consulta o pagamento direto na API
+    F->>B: Marca como "Pago" se o valor cobrir o pedido
+```
+
+## Decisões de segurança
+
+- **Preços no servidor:** o catálogo usado na cobrança é gerado no build, e os valores enviados pelo navegador são ignorados.
+- **Webhook que não confia no aviso:** o status e o valor vêm sempre da API do Mercado Pago. Pagamentos de teste são ignorados com a loja em produção.
+- **Regras do Firestore:** cada cliente lê apenas os próprios dados, e pedidos só podem ser criados pelo servidor.
+- **Login verificado no servidor:** o token do Firebase é conferido por assinatura, emissor e projeto.
+- **Cabeçalhos de segurança:** CSP, HSTS e proteção contra uso em iframes, com regras mais rígidas no painel.
+- **Segredos fora do código:** as chaves ficam só nas variáveis secretas do Cloudflare.
 
 ## Estrutura
 
@@ -28,12 +73,15 @@ Loja virtual da **NMAKER**, que vende camisetas bordadas, peças com corte e gra
 site/               o site (index.html, admin.html, js/, imagens/, dados/)
 functions/api/      Cloudflare Pages Functions (criar-pagamento, webhook-mercadopago)
 servidor/           regras do pedido, frete, catálogo e acesso ao Firebase
-scripts/            gerar catálogo e fanarts, testes e publicação
+scripts/            geração do catálogo e das fanarts, testes e publicação
+prints-portfolio/   telas e apresentação do projeto
 firestore.rules     regras de segurança do Firestore
 wrangler.toml       configuração do Cloudflare Pages
 ```
 
-## Rodar, testar e publicar
+As regras de negócio ficam separadas em `servidor/`, para poderem ser testadas no computador, sem chaves e sem internet.
+
+## Como rodar
 
 ```bash
 npm install
@@ -41,14 +89,24 @@ npm install
 # configuração do Firebase: copie o exemplo e preencha com o seu projeto
 cp site/js/config.exemplo.js site/js/config.js
 
-# testar as regras de pagamento (não precisa de chaves)
+# testes das regras de pagamento (não precisam de chaves)
 npm run testar
 
-# gerar o catálogo do servidor a partir do site
+# gera o catálogo do servidor a partir do site
 npm run build
 
-# publicar no Cloudflare Pages
-npx wrangler pages deploy site
+# publica no Cloudflare Pages
+npx wrangler pages deploy site --project-name nmaker
 ```
 
-As chaves do Mercado Pago (`MP_ACCESS_TOKEN`) e a conta de serviço do Firebase (`FIREBASE_SERVICE_ACCOUNT`) ficam só nas variáveis secretas do Cloudflare, nunca no código.
+Para os pagamentos funcionarem, configure estas variáveis secretas no Cloudflare:
+
+| Variável | Para que serve |
+|---|---|
+| `MP_ACCESS_TOKEN` | Credencial do Mercado Pago |
+| `FIREBASE_SERVICE_ACCOUNT` | Conta de serviço do Firebase, usada só pelo servidor |
+| `MP_WEBHOOK_SECRET` | Opcional: confere a assinatura dos avisos do Mercado Pago |
+
+## Autor
+
+Desenvolvido por [Niozin101](https://github.com/Niozin101).
