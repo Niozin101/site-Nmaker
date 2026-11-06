@@ -8,7 +8,7 @@
      MP_ACCESS_TOKEN, FIREBASE_SERVICE_ACCOUNT  (secretas)   MP_MODO_TESTE = sim (opcional)
    ===================================================================== */
 import catalogo from '../../servidor/catalogo.json';
-import { validarEntrega, montarItens, calcularTotais } from '../../servidor/pedido.mjs';
+import { validarEntrega, montarItens, calcularTotais, modoTeste } from '../../servidor/pedido.mjs';
 import { contaDeServico, verificarLogin, firestore, novoId, AGORA } from '../../servidor/google.mjs';
 
 const resposta = (status, corpo) => new Response(JSON.stringify(corpo), {
@@ -102,8 +102,7 @@ export async function onRequestPost({ request, env }) {
   await db.atualizar(`pedidos/${id}`, { 'mp.preferenceId': mp.id, 'mp.status': 'aguardando' });
 
   // Credenciais de teste usam o checkout de testes (MP_MODO_TESTE=sim liga o modo teste)
-  const teste = tokenMP.startsWith('TEST-') || /^(sim|1|true)$/i.test(env.MP_MODO_TESTE || '');
-  const url = teste && mp.sandbox_init_point ? mp.sandbox_init_point : mp.init_point;
+  const url = modoTeste(tokenMP, env.MP_MODO_TESTE) && mp.sandbox_init_point ? mp.sandbox_init_point : mp.init_point;
   return resposta(200, { url, codigo, total: totais.total });
 }
 

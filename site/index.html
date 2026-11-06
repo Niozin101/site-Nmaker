@@ -4634,15 +4634,10 @@ function voarParaCarrinho(img, dentroDe = document.body) {
   const q = new URLSearchParams(location.search);
   const situacao = q.get('pagamento'), codigo = (q.get('pedido') || '').replace(/[^A-Za-z0-9]/g, '').slice(0, 20);
   if (!['aprovado', 'pendente', 'falhou'].includes(situacao)) return;
-  // Reforço do aviso automático: pede ao servidor para conferir o pagamento no Mercado Pago
-  // (o servidor consulta a API do MP; o navegador só informa o número do pagamento)
+  // Reforço do aviso automático: js/conta.js pede ao servidor para conferir este pagamento
+  // assim que o login do cliente estiver pronto (o servidor consulta a API do Mercado Pago)
   const pagamentoId = q.get('payment_id') || q.get('collection_id');
-  if (/^\d+$/.test(pagamentoId || '')) {
-    fetch('/api/webhook-mercadopago?origem=site', {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ type: 'payment', data: { id: pagamentoId } }),
-    }).catch(() => {});
-  }
+  if (/^\d+$/.test(pagamentoId || '')) window.pagamentoParaConferir = pagamentoId;
   const textos = {
     aprovado: ['✓', 'Pagamento aprovado!', `Recebemos o pagamento do pedido #${codigo}. Agora é com a gente: você acompanha cada etapa em "Meus pedidos".`],
     pendente: ['⏳', 'Pagamento em processamento', `O pedido #${codigo} foi registrado. Se você pagou com boleto ou Pix, a confirmação chega sozinha assim que o pagamento cair.`],

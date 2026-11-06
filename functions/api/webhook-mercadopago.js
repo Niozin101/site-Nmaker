@@ -3,12 +3,13 @@
    O Mercado Pago avisa aqui quando um pagamento muda. A função NÃO confia
    no aviso: consulta o pagamento direto na API do Mercado Pago (com a sua
    chave secreta) e só então atualiza o pedido.
-   O próprio site também chama aqui (?origem=site) quando o cliente volta
-   do checkout, como reforço caso o aviso do Mercado Pago atrase.
+   O próprio site também chama aqui (?origem=site, com o login do cliente)
+   quando ele volta do checkout, como reforço caso o aviso do Mercado Pago atrase.
    Variáveis: MP_ACCESS_TOKEN, FIREBASE_SERVICE_ACCOUNT, MP_WEBHOOK_SECRET (opcional)
+   MP_MODO_TESTE = sim (opcional)
    ===================================================================== */
-import { statusDoPagamento } from '../../servidor/pedido.mjs';
-import { contaDeServico, firestore, APAGAR, AGORA } from '../../servidor/google.mjs';
+import { statusDoPagamento, pagamentoDeTesteIndevido } from '../../servidor/pedido.mjs';
+import { contaDeServico, verificarLogin, firestore, APAGAR, AGORA } from '../../servidor/google.mjs';
 
 const ok = (msg = 'ok') => new Response(msg, { status: 200 });
 
@@ -36,20 +37,27 @@ export async function onRequestPost({ request, env }) {
   const pagamentoId = corpo?.data?.id || url.searchParams.get('data.id') || url.searchParams.get('id');
   if (tipo !== 'payment' || !pagamentoId || !/^\d+$/.test(String(pagamentoId))) return ok('ignorado');
 
-  // Avisos do próprio site não têm assinatura; são seguros porque os dados usados
-  // vêm da consulta à API do Mercado Pago logo abaixo, não do aviso
+  // Avisos do próprio site não têm assinatura: exigem o login do cliente
   const doSite = url.searchParams.get('origem') === 'site';
-  if (!doSite && !(await assinaturaValida(request, url.searchParams.get('data.id') || pagamentoId, env.MP_WEBHOOK_SECRET))) {
+  let uidDoSite = null;
+  if (doSite) {
+    try {
+      const idToken = (request.headers.get('authorization') || '').replace(/^Bearer\s+/i, '');
+      uidDoSite = (await verificarLogin(idToken, contaDeServico(env.FIREBASE_SERVICE_ACCOUNT).project_id)).uid;
+    } catch { return new Response('login necessário', { status: 401 }); }
+  } else if (!(await assinaturaValida(request, url.searchParams.get('data.id') || pagamentoId, env.MP_WEBHOOK_SECRET))) {
     return new Response('assinatura inválida', { status: 401 });
   }
 
   // Busca o pagamento de verdade no Mercado Pago
+  const tokenMP = (env.MP_ACCESS_TOKEN || '').trim();
   const r = await fetch(`https://api.mercadopago.com/v1/payments/${pagamentoId}`, {
-    headers: { Authorization: `Bearer ${(env.MP_ACCESS_TOKEN || '').trim()}` },
+    headers: { Authorization: `Bearer ${tokenMP}` },
   });
   if (r.status === 404) { console.log(`pagamento ${pagamentoId} não encontrado no Mercado Pago`); return ok('pagamento não encontrado'); }
   if (!r.ok) { console.error(`Mercado Pago respondeu ${r.status} ao consultar o pagamento ${pagamentoId}`); return new Response('erro ao consultar o Mercado Pago', { status: 502 }); } // o MP tenta de novo
   const pg = await r.json();
+  if (pagamentoDeTesteIndevido(pg, tokenMP, env.MP_MODO_TESTE)) { console.warn(`pagamento de teste ${pagamentoId} ignorado: a loja está em produção`); return ok('pagamento de teste ignorado'); }
   if (!pg.external_reference || !/^[A-Za-z0-9]{10,40}$/.test(pg.external_reference)) { console.log(`pagamento ${pagamentoId} sem pedido ligado`); return ok('sem pedido'); }
 
   const db = firestore(contaDeServico(env.FIREBASE_SERVICE_ACCOUNT));
@@ -59,6 +67,7 @@ export async function onRequestPost({ request, env }) {
     const doc = await db.ler(caminho);
     if (!doc) return ok('pedido não encontrado');
     const pedido = doc.dados;
+    if (doSite && pedido.uid !== uidDoSite) return ok('ignorado'); // pelo site, cada cliente só confere o próprio pedido
     const novo = statusDoPagamento(pg.status);
     // transaction_amount é só o valor dos produtos; o frete vem em shipping_amount.
     // total_paid_amount é o que o cliente pagou de fato (produtos + frete, sem juros do parcelamento)

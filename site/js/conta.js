@@ -304,6 +304,16 @@ async function iniciar() {
     btn.setAttribute('aria-label', u ? `Minha conta (${u.nome || u.email})` : 'Entrar ou criar conta');
     $c('.conta-btn__ini', btn).textContent = u ? (u.nome || u.email || '?').trim().charAt(0).toUpperCase() : '';
     if (u) {
+      // Voltou do Mercado Pago: pede ao servidor para conferir o pagamento (reforço do aviso automático)
+      if (window.pagamentoParaConferir) {
+        const pagamentoId = window.pagamentoParaConferir;
+        window.pagamentoParaConferir = null;
+        api.idToken().then(token => fetch('/api/webhook-mercadopago?origem=site', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+          body: JSON.stringify({ type: 'payment', data: { id: pagamentoId } }),
+        })).catch(() => {});
+      }
       try { perfil = await api.lerPerfil(u.uid); } catch { perfil = null; }
       if (!perfil) {
         perfil = { nome: u.nome || '', email: u.email || '', criadoEm: Date.now() };

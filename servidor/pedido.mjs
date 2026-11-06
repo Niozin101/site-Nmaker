@@ -54,6 +54,16 @@ export function calcularTotais(itens, uf, tabelaFrete) {
   return { subtotal, frete, total: Math.round((subtotal + frete) * 100) / 100 };
 }
 
+/** A loja está em modo de teste? (credencial de teste ou MP_MODO_TESTE=sim) */
+export function modoTeste(token, marcador) {
+  return String(token || '').startsWith('TEST-') || /^(sim|1|true)$/i.test(marcador || '');
+}
+
+/** Pagamento de teste (live_mode=false) não pode virar pedido pago com a loja em produção. */
+export function pagamentoDeTesteIndevido(pagamento, token, marcador) {
+  return pagamento.live_mode === false && !modoTeste(token, marcador);
+}
+
 /** Status do pedido a partir do status do pagamento no Mercado Pago. */
 export function statusDoPagamento(mpStatus) {
   if (mpStatus === 'approved') return 'Pago';

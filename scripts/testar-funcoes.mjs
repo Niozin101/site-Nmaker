@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { createHmac } from 'node:crypto';
 import catalogo from '../servidor/catalogo.json' with { type: 'json' };
 import { calcularFrete } from '../servidor/frete.mjs';
-import { validarEntrega, montarItens, calcularTotais, statusDoPagamento } from '../servidor/pedido.mjs';
+import { validarEntrega, montarItens, calcularTotais, statusDoPagamento, pagamentoDeTesteIndevido } from '../servidor/pedido.mjs';
 import { paraFirestore, deFirestore, novoId } from '../servidor/google.mjs';
 
 let ok = 0;
@@ -82,6 +82,40 @@ const { assinaturaValida } = await import('../functions/api/webhook-mercadopago.
   assert.equal(await assinaturaValida(req({ 'x-signature': `ts=${ts},v1=${'0'.repeat(64)}`, 'x-request-id': reqId }), id, segredo), false);
   assert.equal(await assinaturaValida(req({}), id, segredo), false);
   ok++; console.log('✓ assinatura do aviso do Mercado Pago');
+}
+
+teste('pagamento de teste só vale com a loja em modo de teste', () => {
+  assert.equal(pagamentoDeTesteIndevido({ live_mode: false }, 'APP_USR-123', ''), true);
+  assert.equal(pagamentoDeTesteIndevido({ live_mode: true }, 'APP_USR-123', ''), false);
+  assert.equal(pagamentoDeTesteIndevido({}, 'APP_USR-123', ''), false);
+  assert.equal(pagamentoDeTesteIndevido({ live_mode: false }, 'TEST-123', ''), false);
+  assert.equal(pagamentoDeTesteIndevido({ live_mode: false }, 'APP_USR-123', 'sim'), false);
+});
+
+// webhook de ponta a ponta, sem internet: troca o fetch por um falso que registra as chamadas
+{
+  const { onRequestPost } = await import('../functions/api/webhook-mercadopago.js');
+  const fetchOriginal = globalThis.fetch;
+  const contaFalsa = JSON.stringify({ client_email: 'a@b.c', private_key: 'x', project_id: 'projeto-teste' });
+  const env = { MP_ACCESS_TOKEN: 'APP_USR-123', FIREBASE_SERVICE_ACCOUNT: contaFalsa };
+  const aviso = (caminho, headers = {}) => new Request(`https://loja.test/api/webhook-mercadopago${caminho}`, {
+    method: 'POST', headers, body: JSON.stringify({ type: 'payment', data: { id: '123' } }),
+  });
+  const chamadas = [];
+  globalThis.fetch = async u => { chamadas.push(String(u)); return new Response(JSON.stringify({ id: 123, live_mode: false, status: 'approved', external_reference: 'pedidoExemplo01' })); };
+  try {
+    for (const headers of [{}, { authorization: 'Bearer token-falso' }]) {
+      const r = await onRequestPost({ request: aviso('?origem=site', headers), env });
+      assert.equal(r.status, 401);
+    }
+    assert.equal(chamadas.length, 0); // sem login válido, nem consulta o Mercado Pago
+    ok++; console.log('✓ chamada do site sem login é recusada');
+
+    const r = await onRequestPost({ request: aviso(''), env });
+    assert.equal(await r.text(), 'pagamento de teste ignorado');
+    assert.equal(chamadas.length, 1); // só consultou o Mercado Pago: não tocou no pedido
+    ok++; console.log('✓ pagamento de teste não muda o pedido em produção');
+  } finally { globalThis.fetch = fetchOriginal; }
 }
 
 console.log(`\n${ok} testes passaram`);

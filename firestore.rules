@@ -21,6 +21,11 @@ service cloud.firestore {
       return !(campo in d) || (d[campo] is string && d[campo].size() <= max);
     }
 
+    // Campo "email" opcional: se existir, tem que ser o e-mail do próprio login
+    function emailDoLogin(d) {
+      return !('email' in d) || (d.email is string && d.email.lower() == request.auth.token.email);
+    }
+
     // ---------------------------------------------------------------
     // Perfil do cliente (dados de entrega e favoritos)
     // ---------------------------------------------------------------
@@ -39,6 +44,9 @@ service cloud.firestore {
         && texto(request.resource.data, 'bairro', 80)
         && texto(request.resource.data, 'cidade', 80)
         && texto(request.resource.data, 'uf', 2)
+        // Só confere o e-mail quando ele é criado ou alterado (perfis antigos continuam funcionando)
+        && (resource != null && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['email'])
+            || emailDoLogin(request.resource.data))
         && (!('favoritos' in request.resource.data)
             || (request.resource.data.favoritos is list && request.resource.data.favoritos.size() <= 200));
       allow delete: if false;
@@ -76,6 +84,10 @@ service cloud.firestore {
         && texto(request.resource.data, 'nome', 100)
         && texto(request.resource.data, 'email', 150)
         && texto(request.resource.data, 'ultimaMsg', 140)
+        && emailDoLogin(request.resource.data)
+        // O cliente só pode se registrar como "cliente" ou manter o que já estava (ex.: ao ler a resposta da loja)
+        && (request.resource.data.get('ultimaDe', 'cliente') == 'cliente'
+            || (resource != null && request.resource.data.ultimaDe == resource.data.get('ultimaDe', null)))
         && (!('naoLidaCliente' in request.resource.data) || request.resource.data.naoLidaCliente == false);
 
       // O dono da loja só mexe no resumo (ao responder ou ao ler)
