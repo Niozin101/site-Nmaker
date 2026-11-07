@@ -409,36 +409,119 @@
  },
  "natal-trico": {
   "nome": "Bonecos de Natal Tricô",
-  "preco": 14.9,
+  "preco": 17.9,
   "personalizavel": false,
   "variantes": [
    {
     "nome": "Papai Noel",
-    "preco": 14.9
+    "preco": 17.9
    },
    {
     "nome": "Rena",
-    "preco": 14.9
+    "preco": 17.9
    },
    {
     "nome": "Pinguim",
-    "preco": 14.9
+    "preco": 17.9
    },
    {
     "nome": "Urso polar",
-    "preco": 14.9
+    "preco": 17.9
    },
    {
     "nome": "Gengibre",
-    "preco": 14.9
+    "preco": 17.9
    },
    {
     "nome": "Kit completo",
-    "preco": 58.9
+    "preco": 69.9
    },
    {
     "nome": "Boneco de neve",
-    "preco": 14.9
+    "preco": 17.9
+   },
+   {
+    "nome": "Árvore de Natal",
+    "preco": 17.9
+   }
+  ]
+ },
+ "papai-noel-fogueira": {
+  "nome": "Papai Noel na Fogueira Porta Vela LED",
+  "preco": 44.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "rena-luminaria": {
+  "nome": "Rena Luminária Low Poly com Vela LED",
+  "preco": 44.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "ponta-arvore-estrela": {
+  "nome": "Ponta de Árvore Estrela Floco de Neve",
+  "preco": 39.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Base Branca",
+    "preco": 39.9
+   },
+   {
+    "nome": "Base Dourada",
+    "preco": 44.9
+   }
+  ]
+ },
+ "papai-noel-luminaria": {
+  "nome": "Papai Noel Luminária com Vela LED",
+  "preco": 39.9,
+  "personalizavel": false,
+  "variantes": []
+ },
+ "porta-chaves-carro-esportivo": {
+  "nome": "Porta-Chaves Carro Esportivo",
+  "preco": 72.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "Cinza",
+    "preco": 72.9
+   },
+   {
+    "nome": "Preto",
+    "preco": 72.9
+   },
+   {
+    "nome": "Rosa claro",
+    "preco": 72.9
+   },
+   {
+    "nome": "Vermelho",
+    "preco": 72.9
+   },
+   {
+    "nome": "Branco",
+    "preco": 72.9
+   },
+   {
+    "nome": "Azul claro",
+    "preco": 72.9
+   }
+  ]
+ },
+ "copo-termico-personalizado": {
+  "nome": "Copo Térmico 473ml Personalizado",
+  "preco": 34.9,
+  "personalizavel": false,
+  "variantes": [
+   {
+    "nome": "1 Unidade",
+    "preco": 34.9
+   },
+   {
+    "nome": "Kit 5 Unidades",
+    "preco": 124.9
    }
   ]
  },
